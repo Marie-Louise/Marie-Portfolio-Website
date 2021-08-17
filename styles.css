@@ -1,0 +1,262 @@
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 50px;
+    color:white;
+    text-align: center;
+}
+
+a:visited {
+    color: white; 
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:active {
+    color: yellowgreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+.nav-item{
+    padding-right: 200px;
+    margin-right: 20px;
+  }
+
+nav {
+    display: flex;
+    margin-left: 40%;
+    position: absolute;
+}
+
+.name {
+    position: absolute;
+    color:white;
+    padding-top: 10px;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.abou {
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+  
+} 
+.text{
+    display: flex;
+    padding-top: 100px;
+    align-items: right;
+    justify-content: right;
+}
+
+ .text1{
+    display: flex;
+    padding-top: 100px;
+    align-items:right;
+    justify-content: right;
+
+ }
+
+.about-text {
+    width: 50%;
+    color: black;
+    font-size: 20px;
+    word-wrap: inherit;
+    padding-left: 200px;
+} 
+
+.about-text h2 {
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.about-text p {
+    display: flex;
+    width: 500px;
+    padding-left: 30px;
+} 
+
+ .contact {
+    min-height: 30vh;
+    max-width: 200rem;
+    /* margin: auto; */
+    padding-top: 1rem;
+    background-color: #020202;
+    /* padding-right: 300px;   */
+} 
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: black;
+}
+ #paragraph1{
+    color: white;
+    margin:0 020; 
+    text-align: center;
+    padding-left:200PX;
+    
+}
+
+.contact p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0.9rem 2rem;
+}
+
+.container {
+    /* min-height: 0.5vh;
+    display: flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding-right:10%;
+}
+
+#gmail {
+    color: white;
+}
+
+section .content {
+    width: 80%;
+    margin: 40px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+section .title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+ section .title span {
+    color: var(--black-color);
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+} 
+
+section .button {
+    margin: 16px 0;
+}
+
+section .button button {
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 400;
+    background: var(--primary-color);
+    color: var(--white-color);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+section .button button:hover {
+    border-color: var(--primary-color);
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+
+/* My Skills CSS */
+
+.skills {
+    background: #f0f8ff;
+}
+
+.skills .content {
+    padding: 40px 0;
+}
+
+.skills .skills-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text0{
+    padding-left: 700px;
+}
+
+.skills-details .text {
+    width:0 40%;
+}
+
+.skills-details p {
+    color: var(--black-color);
+    text-align: justify;
+}
+
+.skills .skills-details .experience {
+    display: flex;
+    align-items: center;
+    margin:  10px;
+}
+
+.skills-details .experience .num {
+    color: var(--black-color);
+    font-size: 80px;
+} 
+
+.skills-details .experience .exp {
+    color: var(--black-color);
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 6px;
+}
+
+.skills-details .boxes {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-details .box {
+    width: calc(100% / 2 - 20px);
+    margin: 20px 0;
+}
+
+.skills-details .boxes .topic {
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.skills-details .boxes .per {
+    font-size: 60px;
+    color: var(--primary-color);
+}
+
+
+/* My Services CSS */
+
+.services .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ .services .boxes .box {
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.12);
+    cursor: default;
+    transition: all 0.4s ease;
+} 
+
+.services .boxes .box:hover {
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
